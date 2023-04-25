@@ -1,0 +1,31 @@
+.nav-container {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 0em;
+  width: 90%;
+  margin: auto;
+}
+
+.nav-wrapper>button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  text-align: center;
+  background-color: transparent;
+  padding: 1em;
+  border-radius: 7px;
+  cursor: pointer;
+  gap: .7em;
+}
+
+@media(max-width:420px) {
+  .nav-wrapper h1 {
+    font-size: 1rem;
+  }
+}

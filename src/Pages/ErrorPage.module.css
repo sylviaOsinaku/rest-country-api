@@ -1,0 +1,14 @@
+.error-container {
+  display: flex;
+  margin-top: 2em;
+  align-items: center;
+}
+
+.error-container img {
+  width: 50%;
+}
+
+.error-container span {
+  color: #390505;
+  font-weight: 700;
+}
